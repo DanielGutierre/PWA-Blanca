@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3498db; /* Fondo azul */
+    color: #0f0e0e;
+    
+}
+
+header, footer {
+    background-image: url('../imagenes/rines_chidos.jpg');
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    margin-top: 20px;
+}
+
+section {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco transparente para resaltar el contenido */
+    margin-bottom: 20px;
+}
+
+/* Imagen de fondo en el encabezado */
+img {
+    
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+    height: 300px; /* Altura del encabezado */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
